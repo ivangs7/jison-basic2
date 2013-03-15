@@ -24,3 +24,13 @@ A   : /* empty */
            }
     ;
 
+/* Asociado a cada regla yo puedo asociar una acción semántica 
+ * Cada vez que detecte que una regla de producción se aplica, 
+ * realizará la acción semántica
+ * Cada uno de los elementos que aparecen en las reglas de producción
+ * tienes asociado un atributo. 
+ *      A    -> A  x
+ *      $$      $1 $2 .... $loquesea
+ */
+
+/* El árbol se construye de abajo a arriba y de izquierda a derecha */
